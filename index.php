@@ -480,8 +480,8 @@
                     <div class="swiper-slide">
                         <div class="course-card_exam foundation_exam fade-in-up_exam">
                             <div class="course-header_exam shimmer_exam">
-                                <h3 class="course-title_exam">NID - Foundation Coaching</h3>
-                                <p class="course-subtitle_exam">(For Class 9th, 10th & 11th)</p>
+                                <h3 class="course-title_exam">NIFT - Foundation Coaching</h3>
+                                <p class="course-subtitle_exam">(For students in Class 9th, 10th & 11th)</p>
                             </div>
                             <div class="course-content_exam">
                                 <!-- Option 1 -->
@@ -510,8 +510,8 @@
                     <div class="swiper-slide">
                         <div class="course-card_exam bdesign_exam fade-in-up_exam">
                             <div class="course-header_exam shimmer_exam">
-                                <h3 class="course-title_exam">NID B.Design Coaching</h3>
-                                <p class="course-subtitle_exam">(For Grade 12th & 12th Passed)</p>
+                                <h3 class="course-title_exam">NIFT B.Design Coaching</h3>
+                                <p class="course-subtitle_exam">(For Students in Grade 12th & 12th Passed)</p>
                             </div>
                             <div class="course-content_exam">
                                 <!-- Option 1 -->
@@ -540,8 +540,8 @@
                     <div class="swiper-slide">
                         <div class="course-card_exam mdesign_exam fade-in-up_exam">
                             <div class="course-header_exam shimmer_exam">
-                                <h3 class="course-title_exam">NID M.Design Coaching</h3>
-                                <p class="course-subtitle_exam">( Pursuing Graduation/ Graduates)</p>
+                                <h3 class="course-title_exam">NIFT M.Design Coaching</h3>
+                                <p class="course-subtitle_exam">(For Students Pursuing Graduation/ Graduates)</p>
                             </div>
                             <div class="course-content_exam">
                                 <!-- Option 1 -->
@@ -566,27 +566,58 @@
                             </div>
                         </div>
                     </div>
-                    <!-- DAT Mains Course -->
+                    <!-- B.FTech Course -->
                     <div class="swiper-slide">
-                        <div class="course-card_exam dat-mains_exam fade-in-up_exam">
+                        <div class="course-card_exam bftech_exam fade-in-up_exam">
                             <div class="course-header_exam shimmer_exam">
-                                <h3 class="course-title_exam">NID DAT Mains Coaching </h3>
-                                <p class="course-subtitle_exam">(B.Design / M.Design)</p>
+                                <h3 class="course-title_exam">NIFT B.FTech Coaching</h3>
+                                <p class="course-subtitle_exam">(For Students in Grade 12th & 12th Passed)</p>
                             </div>
                             <div class="course-content_exam">
                                 <div class="course-option_exam">
-                                    <h4 class="option-title_exam">
-                                        <i class="fas fa-info-circle"></i>
-                                        <span>NID DAT Mains - Regular/ Weekdays Course</span>
+                                    <h4 class="option-title_exam"><i class="fas fa-calendar-alt"></i> Option 1 -
+                                        Weekend Course</h4>
+                                    <div class="option-details_exam">
+                                        <div class="detail-item_exam">
+                                            <i class="fas fa-clock"></i>
+                                            <span>Duration: 1 year/ 6 months</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="option-title_exam"><i class="fas fa-bolt"></i> Option 2 - Crash Course
                                     </h4>
                                     <div class="option-details_exam">
                                         <div class="detail-item_exam">
                                             <i class="fas fa-clock"></i>
-                                            <span>Duration: 10 Days/ 14 Days/ 1 month</span>
+                                            <span>Duration: 1 month</span>
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- MFM/M.FTech Course -->
+                    <div class="swiper-slide">
+                        <div class="course-card_exam mfm_exam fade-in-up_exam">
+                            <div class="course-header_exam shimmer_exam">
+                                <h3 class="course-title_exam">NIFT MFM / M.FTech Coaching</h3>
+                                <p class="course-subtitle_exam">(For Students Pursuing Graduation/ Graduates)</p>
+                            </div>
+                            <div class="course-content_exam">
+                                <div class="course-option_exam">
+                                    <h4 class="option-title_exam"><i class="fas fa-calendar-alt"></i> Option 1 -
+                                        Weekend Course</h4>
+                                    <div class="option-details_exam">
                                         <div class="detail-item_exam">
-                                            <i class="fas fa-calendar-day"></i>
-                                            <span>Days: Mon to Sat (6 Days a week)</span>
+                                            <i class="fas fa-clock"></i>
+                                            <span>Duration: 1 year/ 6 months</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="option-title_exam"><i class="fas fa-bolt"></i> Option 2 - Crash Course
+                                    </h4>
+                                    <div class="option-details_exam">
+                                        <div class="detail-item_exam">
+                                            <i class="fas fa-clock"></i>
+                                            <span>Duration: 1 month</span>
                                         </div>
                                     </div>
                                 </div>
