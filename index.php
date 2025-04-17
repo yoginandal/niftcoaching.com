@@ -1163,57 +1163,55 @@
                             class="fas cus_fa fa-clipboard-list"></i>Pattern</div>
                     <div class="nid_tab_tab cus_tab" data-tab="application"><i
                             class="fas cus_fa fa-file-alt"></i>Application</div>
-                    <div class="nid_tab_tab cus_tab" data-tab="cutoff"><i class="fas cus_fa fa-chart-line"></i>Cut Off
-                    </div>
+                    <!-- <div class="nid_tab_tab cus_tab" data-tab="cutoff"><i class="fas cus_fa fa-chart-line"></i>Cut Off
+                    </div> -->
                     <div class="nid_tab_tab cus_tab" data-tab="result"><i class="fas cus_fa fa-trophy"></i>Results</div>
                 </div>
                 <div class="nid_tab_tabs_content">
                     <!-- Floating particles -->
                     <div class="nid_tab_particles" id="nidParticles"></div>
-                    <!-- About NID Tab -->
+                    <!-- About NIFT Tab -->
                     <div class="nid_tab_tab_pane active" id="about">
-                        <h3 class="nid_tab_tab_title">About National Institute of Design</h3>
+                        <h3 class="nid_tab_tab_title">About National Institute of Fashion Technology</h3>
                         <p class="nid_tab_tab_description">
-                            <span class="nid_tab_highlight">National Institute of Design (NID)</span> is recognized
-                            globally as the top educational and research institute for pursuing Bachelor and Master's
-                            programs in Communication, Industrial, IT Integrated (Experiential), Interdisciplinary and
-                            Textile Design. The institute is empowered to award its own degrees and presently offers
-                            Bachelor of Design(B.Des.), Master of Design (M.Des.) and Doctor of Philosophy (PhD) in
-                            Design.
+                            <span class="nid_tab_highlight">National Institute of Fashion Technology (NIFT)</span> is India's premier fashion institute established in 1986 under the Ministry of Textiles. With 17 campuses across India, NIFT offers undergraduate and postgraduate programs in Fashion Design, Fashion Communication, Fashion Technology, and Fashion Management. The institute is renowned for its industry-focused curriculum and has consistently produced leading professionals who shape the fashion and textile industry both in India and globally.
                         </p>
                     </div>
                     <!-- Date Tab -->
                     <div class="nid_tab_tab_pane" id="date">
-                        <h3 class="nid_tab_tab_title">Important Dates for NID Admission 2025-26</h3>
+                        <h3 class="nid_tab_tab_title">Important Dates for NIFT Admission 2025-26</h3>
                         <div class="nid_tab_info_table_wrapper">
                             <table class="nid_tab_info_table">
                                 <thead>
                                     <tr>
                                         <th>Event</th>
-                                        <th>B.Des</th>
-                                        <th>M.Des</th>
+                                        <th>Date</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><strong>NID DAT Prelims Exam</strong></td>
-                                        <td>05 Jan 2025</td>
-                                        <td>05 Jan 2025</td>
+                                        <td><strong>Application Start Date</strong></td>
+                                        <td>November 22, 2024</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>NID DAT Prelims Result</strong></td>
-                                        <td>01 Apr 2025</td>
-                                        <td>17 Feb 2025</td>
+                                        <td><strong>Last Date to Apply (Regular)</strong></td>
+                                        <td>January 6, 2025</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>NID DAT Mains Exam</strong></td>
-                                        <td>26 Apr 2025 to 04 May 2025</td>
-                                        <td>3 March 2025 to 06 April 2025</td>
+                                        <td><strong>Last Date to Apply (With Late Fee)</strong></td>
+                                        <td>January 9, 2025</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>NID DAT Mains Result</strong></td>
-                                        <td>16 May 2025</td>
-                                        <td>06 May 2025</td>
+                                        <td><strong>Admit Card Release</strong></td>
+                                        <td>February 4, 2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>NIFT Exam Date</strong></td>
+                                        <td>February 9, 2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Result Announcement</strong></td>
+                                        <td>To be announced soon</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -1221,43 +1219,42 @@
                     </div>
                     <!-- Pattern Tab -->
                     <div class="nid_tab_tab_pane" id="pattern">
-                        <h3 class="nid_tab_tab_title">NID Entrance Exam Pattern</h3>
+                        <h3 class="nid_tab_tab_title">NIFT Course Selection Pattern</h3>
                         <p class="nid_tab_tab_description">
-                            The NID entrance examination is conducted in two stages: Preliminary Examination (DAT
-                            Prelims) and Mains Examination (DAT Mains). Understanding the exam pattern is crucial for
-                            effective preparation.
+                            NIFT offers various courses for different academic levels. Understanding the eligibility and course selection pattern is crucial for choosing the right program.
                         </p>
                         <div class="nid_tab_info_card nid_tab_fade_in_left">
-                            <h4 class="nid_tab_info_card_title"><i class="fas fa-graduation-cap"></i>NID DAT Examination
-                                Structure</h4>
+                            <h4 class="nid_tab_info_card_title"><i class="fas fa-graduation-cap"></i>Course Selection Guide</h4>
                             <ul class="nid_tab_info_list">
-                                <li><strong>Stage 1: NID DAT Prelims</strong> - Pen & Paper based Written Test</li>
-                                <li><strong>Stage 2: NID DAT Mains</strong> - Studio Test</li>
+                                <li><strong>Foundation Course (Group A)</strong> - For students in class 9th, 10th & 11th preparing for NIFT B.Design</li>
+                                <li><strong>B.Design/B.FTech Course (Group B)</strong> - For students in class 12th OR 12th passed</li>
+                                <li><strong>Post Graduate Programs (Group E/F)</strong> - For post graduate students interested in M.Design, MFM or M.F Tech courses</li>
                             </ul>
                         </div>
                     </div>
                     <!-- Application Form Tab -->
                     <div class="nid_tab_tab_pane" id="application">
-                        <h3 class="nid_tab_tab_title">NID 2025 Application Form</h3>
+                        <h3 class="nid_tab_tab_title">NIFT 2025 Application Form</h3>
                         <p class="nid_tab_tab_description">
-                            The application process for NID 2025 is completely online. Visit the official NID admissions
+                            The application process for NIFT 2025 is completely online. Visit the official NIFT admissions
                             website to apply.
                         </p>
                         <div class="nid_tab_info_card nid_tab_shimmer">
                             <h4 class="nid_tab_info_card_title"><i class="fas fa-exclamation-circle"></i> Important Note
                             </h4>
-                            <p>Applications for NID 2025 will open in September 2024. Keep checking the official website
+                            <p>Applications for NIFT 2025 will open in November 2025. Keep checking the official website
                                 for updates. BRDS helps you prepare a flawless application to maximize your chances of
                                 selection.</p>
                         </div>
                         <div style="text-align: center; margin-top: 30px;">
-                            <a href="https://admissions.nid.edu" target="_blank" class="nid_tab_register_btn">
+                            <a href="https://nift.ac.in/admission" target="_blank" class="nid_tab_register_btn">
                                 <i class="fas fa-user-plus"></i> Register Now
                             </a>
                         </div>
                     </div>
+                    
                     <!-- Cut Off Tab -->
-                    <div class="nid_tab_tab_pane" id="cutoff">
+                    <!-- <div class="nid_tab_tab_pane" id="cutoff">
                         <h3 class="nid_tab_tab_title">NID Cut off for Admissions 2024 – 2025</h3>
                         <p class="nid_tab_tab_description">
                             All candidates need to meet NID DAT cutoff in order to secure admission in design courses
@@ -1308,50 +1305,41 @@
                                 </tbody>
                             </table>
                         </div>
-                    </div>
+                    </div> -->
+
                     <!-- Result Tab -->
                     <div class="nid_tab_tab_pane" id="result">
-                        <h3 class="nid_tab_tab_title">About NID Result</h3>
+                        <h3 class="nid_tab_tab_title">About NIFT Result</h3>
                         <p class="nid_tab_tab_description">
-                            The NID Results 2025 will be declared through online mode only. The scorecard is considered
+                            The NIFT Results 2025 will be declared through online mode only. The scorecard is considered
                             valid for the current year only. The candidate needs to log in to the official website and
-                            enter their registered details to check their result of NID. The scorecard will include all
+                            enter their registered details to check their result of NIFT. The scorecard will include all
                             relevant information, including the qualifying status.
                         </p>
                         <div class="nid_tab_info_card nid_tab_shimmer">
                             <h4 class="nid_tab_info_card_title"><i class="fas fa-medal"></i> BRDS Success Story</h4>
-                            <p>BRDS has consistently produced outstanding results in NID admissions. Our specialized
+                            <p>BRDS has consistently produced outstanding results in NIFT admissions. Our specialized
                                 coaching methodology, expert faculty, and comprehensive study materials have helped
-                                hundreds of students realize their dreams of studying at NID.</p>
+                                hundreds of students realize their dreams of studying at NIFT.</p>
                         </div>
-                        <h4 class="nid_tab_tab_title">BRDS NID 2024 Results</h4>
+                        <h4 class="nid_tab_tab_title">BRDS NIFT 2024 Results</h4>
                         <div class="nid_tab_stats_grid">
                             <div class="nid_tab_stats_card nid_tab_fade_in_up" style="animation-delay: 0.1s;">
-                                <div class="nid_tab_stats_header">449</div>
+                                <div class="nid_tab_stats_header">2207</div>
                                 <div class="nid_tab_stats_content">
-                                    <div class="nid_tab_stats_label">BRDS Students Qualified in NID 2024</div>
+                                    <div class="nid_tab_stats_label">BRDS Students Selected in NIFT 2024 Final Selections</div>
                                 </div>
                             </div>
                             <div class="nid_tab_stats_card nid_tab_fade_in_up" style="animation-delay: 0.2s;">
-                                <div class="nid_tab_stats_header black">219</div>
+                                <div class="nid_tab_stats_header black">2060</div>
                                 <div class="nid_tab_stats_content">
-                                    <div class="nid_tab_stats_label">BRDS Students Selected in NID 2024 Final Selections
-                                        (B.Design)</div>
+                                    <div class="nid_tab_stats_label">BRDS Students Selected in NIFT 2024 Final Selections (B.Design & B.F.Tech)</div>
                                 </div>
                             </div>
                             <div class="nid_tab_stats_card nid_tab_fade_in_up" style="animation-delay: 0.3s;">
-                                <div class="nid_tab_stats_header">262</div>
+                                <div class="nid_tab_stats_header">147</div>
                                 <div class="nid_tab_stats_content">
-                                    <div class="nid_tab_stats_label">BRDS Students Selected in NID 2024 Final Selections
-                                        (B. Design & M. Design)</div>
-                                </div>
-                            </div>
-                            <div class="nid_tab_stats_card nid_tab_fade_in_up" style="animation-delay: 0.4s;">
-                                <div class="nid_tab_stats_header black">43</div>
-                                <div class="nid_tab_stats_content">
-                                    <div class="nid_tab_stats_label">BRDS Students Selected in NID 2024 Final Selections
-                                        (M. Design)</div>
-                                    <a href="#" class="nid_tab_read_more">Read More</a>
+                                    <div class="nid_tab_stats_label">BRDS Students Selected in NIFT 2024 Final Selections (M.Design / MFM / M.F.Tech)</div>
                                 </div>
                             </div>
                         </div>
