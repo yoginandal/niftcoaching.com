@@ -4,16 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top NID Coaching | Expert Prep for B.Des & M.Des Success</title>
+    <title>Top NIFT Coaching | Expert Prep for B.Des & M.Des Success</title>
     <meta name="google-site-verification" content="AB0a1cA4zkM4DXlhdMUKGc3V0GirLuXigfIYhtjd9Pk" />
-    <meta name="title" content="Best NID Coaching for DAT & Studio Test | NID Preparation">
-    <meta name="description"
-        content="Get expert NID coaching for DAT Prelims, Mains & Studio Test. Join the best NID entrance preparation with online & offline classes. Enroll today!">
+    <meta name="title" content="NIFT Coaching and NIFT Entrance Exam Preparation Tips - NIFT Situation Test">
+    <meta name="description" content="Get top-tier NIFT coaching, comprehensive NIFT study material, and expert NIFT preparation tips for your ultimate success, including NIFT situation test and NIFT result guidance.">
     <link rel="icon" href="images/brds.png" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <link rel="stylesheet" href="css/minified.css?v=3.1">
     <link rel="stylesheet" href="css/custom.css?v=<?php echo time(); ?>">
@@ -1127,9 +1125,9 @@
     </script>
     <section class="study_section" style="display: flex; justify-content: center; align-items: center;">
         <img class="nid_study_img desktop-img" style="height: 580px; width: 100% !important"
-            src="https://nidcoaching.org/images/nid_study_newp.png" alt="NID Tab Background">
+            src="./images/nift_study_newp.png" alt="NID Tab Background">
         <img class="nid_study_img mobile-img" style="height: 500px;"
-            src="https://nidcoaching.org/images/nid_study_newt.png" alt="NID Tab Background">
+            src="./images/nift_study_newt.png" alt="NID Tab Background">
     </section>
     <style>
         .mobile-img {
