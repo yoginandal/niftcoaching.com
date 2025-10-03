@@ -4,18 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top NIFT Coaching | Expert Prep for B.Des & M.Des Success</title>
+    <meta name="google-site-verification" content="1UmMylHDRWNPRkYC3Cc-dTO3tOq6YMa0mOW6Bo3YmeM" />
+    <title>Top NIFT Coaching for B.Des & M.Des Aspirants</title>
     <meta name="google-site-verification" content="AB0a1cA4zkM4DXlhdMUKGc3V0GirLuXigfIYhtjd9Pk" />
-    <meta name="title" content="NIFT Coaching and NIFT Entrance Exam Preparation Tips - NIFT Situation Test">
-    <meta name="description" content="Get top-tier NIFT coaching, comprehensive NIFT study material, and expert NIFT preparation tips for your ultimate success, including NIFT situation test and NIFT result guidance.">
+    <meta name="title" content="Join Best NIFT Coaching | Success in B.Des & M.Des Exams">
+    <meta name="description"
+        content="Get the best NIFT Coaching with expert mentors, online classes, study material, and mock tests. Prepare smartly for NIFT 2025 with India’s trusted institute.">
     <link rel="icon" href="images/brds.png" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <link rel="stylesheet" href="css/minified.css?v=3.1">
     <link rel="stylesheet" href="css/custom.css?v=<?php echo time(); ?>">
     <script src="js/jquery.min.js"></script>
+    <link rel="canonical" href="https://niftcoaching.com" />
+    <meta name="robots" content="index, follow" />
+    <meta name="Revisit-after" content="7 Days" />
+    <meta property="og:type" content="website">
+
+    <meta property="og:title" content="Join Best NIFT Coaching | Success in B.Des & M.Des Exams">
+
+    <meta property="og:url" content="https://niftcoaching.com/">
+
+    <meta property="og:image" content="https://niftcoaching.com/images/niftbannern.png">
+
+    <meta property="og:description"
+        content="Get the best NIFT Coaching with expert mentors, online classes, study material, and mock tests. Prepare smartly for NIFT 2025 with India’s trusted institute.">
+    <link rel="alternate" href="https://niftcoaching.com" hreflang="en-IN">
     <script>
         jQuery(document).ready(function () {
             url = new URL(window.location.href);
@@ -39,22 +56,38 @@
         });
     </script>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QF56WX8800"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-QF56WX8800"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'G-QF56WX8800');
-    </script>
+    </script> -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R44ZEPR35M"></script>
+    <script>   window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-R44ZEPR35M'); </script>
     <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
+    <!-- <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
                 'gtm.start': new Date().getTime(), event: 'gtm.js'
             }); var f = d.getElementsByTagName(s)[0],
                 j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-WSZX8D67');</script>
+        })(window, document, 'script', 'dataLayer', 'GTM-NRLJ47XN');</script> -->
     <!-- End Google Tag Manager -->
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NRLJ47XN');</script>
+    <!-- End Google Tag Manager -->
+
+
     <style>
         /* Improved styles for better readability and spacing */
         body {
@@ -117,22 +150,36 @@
                 bottom: 30px;
                 right: 30px;
             }
+
+            #header-right-nift {
+                display: block;
+            }
         }
 
         /* Mobile and Tablet styles */
         @media (max-width: 767px) {
             .call-button-wrapper {
-                bottom: 0;
-                left: 0;
+                bottom: 10px;
+                /* left: 0; */
                 right: 0;
-                background: white;
+                /* background: white; */
                 padding: 10px;
-                box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+                /* box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); */
+            }
+
+            .call-button-wrapper span {
+                display: none;
             }
 
             .call-button {
                 justify-content: center;
-                border-radius: 8px;
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+            }
+
+            #header-right-nift {
+                display: none;
             }
         }
     </style>
@@ -140,17 +187,49 @@
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSZX8D67" height="0" width="0"
+    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRLJ47XN" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript> -->
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRLJ47XN" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
+
     <header>
         <div class="container-md">
             <div class="row align-items-center">
                 <div class="col-md-6 col-12 p-0">
                     <div class="header-left"><img src="images/headerlogo.png" alt="headerlogo" class="headerlogo"></div>
                 </div>
-                <div class="col-md-6 col-12 header-right p-0">
-                    <p class="p-right mb-0">India's No. 1 Design Coaching Institute</p>
+                <div class="col-md-6 col-12 header-right p-0" id="header-right-nift">
+                    <p class="p-right mb-0" style="
+                        background: linear-gradient(45deg, #ff3333, #ee0404);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        font-weight: 600;
+                        font-size: 18px;
+                        padding: 12px 15px;
+                        animation: pulse 2s infinite;
+                       
+                    
+                    ">India's No. 1 Design Coaching Institute</p>
+                    <style>
+                        @keyframes pulse {
+                            0% {
+                                transform: scale(1);
+                            }
+
+                            50% {
+                                transform: scale(1.05);
+                            }
+
+                            100% {
+                                transform: scale(1);
+                            }
+                        }
+                    </style>
                 </div>
             </div>
         </div>
@@ -158,16 +237,28 @@
     <section class="banner">
         <div class="container position-relative z-1">
             <div class="row gy-4 align-items-center">
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12" id="banner-container">
+                    <!-- <div class="col-md-6 col-12"> -->
                     <div class="banner-left text-center text-md-start">
-                        <h2 class="text-white">NID Entrance Exam Coaching</h2>
-                        <h3>Unlock a World of Design Excellence through NID Coaching with BRDS</h3>
+                        <h1>Top NIFT Coaching for B.Des & M.Des Aspirants</h1>
+                        <h2
+                            style="font-size: 4rem; font-weight: 900; margin-bottom: 1rem; background: linear-gradient(45deg, #ff3333, #ee0404); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                            Join BRDS
+                        </h2>
+                        <h2 id="banner-left-h2"
+                            style="font-size: 2.7rem; font-weight: 700; margin-bottom: 1.5rem; background: linear-gradient(45deg, #333333, #666666); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                            India's No.1 NIFT Coaching
+                        </h2>
+                        <h3
+                            style="font-size: 1rem; font-weight: 600; margin-top: 1rem; letter-spacing: 0.05em; max-width: 400px; color: #4e4d4d;">
+                            Your Shortcut to Success
+                        </h3>
                     </div>
                 </div>
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12" id="form-box">
                     <div class="banner-right text-center mx-auto ms-lg-auto me-lg-0 mw-">
                         <h3>Admissions Open</h3>
-                        <form method="post" action="brds_crm_api.php" enctype="multipart/form-data" id="brds_form">
+                        <form method="post" action="brds_crm_api_nift.php" enctype="multipart/form-data" id="brds_form">
                             <div class="col-12">
                                 <input type="text" name="Name" class="form-control shadow-none border-0" id="name"
                                     placeholder="Enter Name" required pattern="[A-Za-z\s]+"
@@ -176,7 +267,7 @@
                             </div>
                             <div class="col-12">
                                 <input type="tel" class="form-control shadow-none border-0" name="phone"
-                                    id="phone_number" placeholder="Enter Phone Number*" maxlength="10" minlength="10"
+                                    id="phone_number" placeholder="Enter Phone Number" maxlength="10" minlength="10"
                                     required pattern="[6-9][0-9]{9}"
                                     title="Please enter valid 10 digit mobile number starting with 6-9"
                                     onkeypress="return /[0-9]/i.test(event.key)">
@@ -204,7 +295,7 @@
                                 <select name="course"
                                     style="width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 5px; background: white;"
                                     required>
-                                    <option value="">Select</option>
+                                    <option value="">Select Course</option>
                                     <option value="NID">NID</option>
                                     <option value="NIFT">NIFT</option>
                                     <option value="CEED">CEED</option>
@@ -234,8 +325,8 @@
                                 <input type="hidden" id="mediumId" name="medium" value="<?php if (isset($_GET['utm_medium'])) {
                                     echo $_GET['utm_medium'];
                                 } ?>" />
-                                <input type="hidden" name="orderid" value="1021" />
-                                <input type="hidden" name="sitename" value="NIDCOACHING" />
+                                <input type="hidden" name="orderid" value="1037" />
+                                <input type="hidden" name="sitename" value="NIFTCOACHING" />
                                 <input type="submit" class="banner-form-btn" value="Apply Now" name="submit" />
                             </div>
                         </form>
@@ -291,12 +382,14 @@
                                 </div>
                             </div>
                             <!-- Challenge Button -->
-                            <div class="challenge-button-container_challenge">
-                                <button id="challenge-button_challenge" class="challenge-button_challenge">
-                                    Take the Challenge
-                                    <span class="arrow-icon_challenge">→</span>
-                                </button>
-                            </div>
+                            <a href="#brds_form">
+                                <div class="challenge-button-container_challenge">
+                                    <button id="challenge-button_challenge" class="challenge-button_challenge">
+                                        Take the Challenge
+                                        <span class="arrow-icon_challenge">→</span>
+                                    </button>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -853,8 +946,7 @@
                     <div class="card-header_result"></div>
                     <div class="profile-wrapper_result">
                         <div class="profile-ring_result"></div>
-                        <img src="./images/isha-kiran-nift.jpg"
-                            alt="Isha Kiran Biruly" class="profile-pic_result">
+                        <img src="./images/isha-kiran-nift.jpg" alt="Isha Kiran Biruly" class="profile-pic_result">
                     </div>
                     <div class="student-info_result">
                         <h3 class="student-name_result">Isha Kiran Biruly</h3>
@@ -872,8 +964,7 @@
                     <div class="card-header_result"></div>
                     <div class="profile-wrapper_result">
                         <div class="profile-ring_result"></div>
-                        <img src="./images/sneha-tawari.jpeg"
-                            alt="Sneha Tawari" class="profile-pic_result">
+                        <img src="./images/sneha-tawari.jpeg" alt="Sneha Tawari" class="profile-pic_result">
                     </div>
                     <div class="student-info_result">
                         <h3 class="student-name_result">Sneha Tawari</h3>
@@ -891,8 +982,7 @@
                     <div class="card-header_result"></div>
                     <div class="profile-wrapper_result">
                         <div class="profile-ring_result"></div>
-                        <img src="./images/shalome-chhangte.png"
-                            alt="Shalom Malsawmtluangi" class="profile-pic_result">
+                        <img src="./images/shalome-chhangte.png" alt="Shalom Malsawmtluangi" class="profile-pic_result">
                     </div>
                     <div class="student-info_result">
                         <h3 class="student-name_result">Shalom Malsawmtluangi</h3>
@@ -919,8 +1009,7 @@
                 <div class="card_result student-card_result">
                     <div class="card-header_result"></div>
                     <div class="profile-wrapper_result">
-                        <img src="./images/isha-kiran-nift.jpg"
-                            alt="Isha Kiran Biruly" class="profile-pic_result">
+                        <img src="./images/isha-kiran-nift.jpg" alt="Isha Kiran Biruly" class="profile-pic_result">
                     </div>
                     <div class="student-info_result">
                         <h3 class="student-name_result">Isha Kiran Biruly</h3>
@@ -937,8 +1026,7 @@
                 <div class="card_result student-card_result">
                     <div class="card-header_result"></div>
                     <div class="profile-wrapper_result">
-                        <img src="./images/sneha-tawari.jpeg"
-                            alt="Sneha Tawari" class="profile-pic_result">
+                        <img src="./images/sneha-tawari.jpeg" alt="Sneha Tawari" class="profile-pic_result">
                     </div>
                     <div class="student-info_result">
                         <h3 class="student-name_result">Sneha Tawari</h3>
@@ -955,8 +1043,7 @@
                 <div class="card_result student-card_result">
                     <div class="card-header_result"></div>
                     <div class="profile-wrapper_result">
-                        <img src="./images/shalome-chhangte.png"
-                            alt="Shalom Malsawmtluangi" class="profile-pic_result">
+                        <img src="./images/shalome-chhangte.png" alt="Shalom Malsawmtluangi" class="profile-pic_result">
                     </div>
                     <div class="student-info_result">
                         <h3 class="student-name_result">Shalom Malsawmtluangi</h3>
@@ -1126,8 +1213,8 @@
     <section class="study_section" style="display: flex; justify-content: center; align-items: center;">
         <img class="nid_study_img desktop-img" style="height: 580px; width: 100% !important"
             src="./images/nift_study_newp.png" alt="NID Tab Background">
-        <img class="nid_study_img mobile-img" style="height: 500px;"
-            src="./images/nift_study_newt.png" alt="NID Tab Background">
+        <img class="nid_study_img mobile-img" style="height: 500px;" src="./images/nift_study_newt.png"
+            alt="NID Tab Background">
     </section>
     <style>
         .mobile-img {
@@ -1154,7 +1241,7 @@
             <div class="nid_tab_tabs_container nid_tab_fade_in_up">
                 <div class="nid_tab_tabs_header" id="nidTabsHeader">
                     <div class="nid_tab_tab cus_tab active" data-tab="about"><i
-                            class="fas cus_fa fa-info-circle"></i>About NID</div>
+                            class="fas cus_fa fa-info-circle"></i>About NIFT</div>
                     <div class="nid_tab_tab cus_tab" data-tab="date"><i class="fas cus_fa fa-calendar-alt"></i>Date
                     </div>
                     <div class="nid_tab_tab cus_tab" data-tab="pattern"><i
@@ -1172,7 +1259,12 @@
                     <div class="nid_tab_tab_pane active" id="about">
                         <h3 class="nid_tab_tab_title">About National Institute of Fashion Technology</h3>
                         <p class="nid_tab_tab_description">
-                            <span class="nid_tab_highlight">National Institute of Fashion Technology (NIFT)</span> is India's premier fashion institute established in 1986 under the Ministry of Textiles. With 17 campuses across India, NIFT offers undergraduate and postgraduate programs in Fashion Design, Fashion Communication, Fashion Technology, and Fashion Management. The institute is renowned for its industry-focused curriculum and has consistently produced leading professionals who shape the fashion and textile industry both in India and globally.
+                            <span class="nid_tab_highlight">National Institute of Fashion Technology (NIFT)</span> is
+                            India's premier fashion institute established in 1986 under the Ministry of Textiles. With
+                            17 campuses across India, NIFT offers undergraduate and postgraduate programs in Fashion
+                            Design, Fashion Communication, Fashion Technology, and Fashion Management. The institute is
+                            renowned for its industry-focused curriculum and has consistently produced leading
+                            professionals who shape the fashion and textile industry both in India and globally.
                         </p>
                     </div>
                     <!-- Date Tab -->
@@ -1219,14 +1311,19 @@
                     <div class="nid_tab_tab_pane" id="pattern">
                         <h3 class="nid_tab_tab_title">NIFT Course Selection Pattern</h3>
                         <p class="nid_tab_tab_description">
-                            NIFT offers various courses for different academic levels. Understanding the eligibility and course selection pattern is crucial for choosing the right program.
+                            NIFT offers various courses for different academic levels. Understanding the eligibility and
+                            course selection pattern is crucial for choosing the right program.
                         </p>
                         <div class="nid_tab_info_card nid_tab_fade_in_left">
-                            <h4 class="nid_tab_info_card_title"><i class="fas fa-graduation-cap"></i>Course Selection Guide</h4>
+                            <h4 class="nid_tab_info_card_title"><i class="fas fa-graduation-cap"></i>Course Selection
+                                Guide</h4>
                             <ul class="nid_tab_info_list">
-                                <li><strong>Foundation Course (Group A)</strong> - For students in class 9th, 10th & 11th preparing for NIFT B.Design</li>
-                                <li><strong>B.Design/B.FTech Course (Group B)</strong> - For students in class 12th OR 12th passed</li>
-                                <li><strong>Post Graduate Programs (Group E/F)</strong> - For post graduate students interested in M.Design, MFM or M.F Tech courses</li>
+                                <li><strong>Foundation Course (Group A)</strong> - For students in class 9th, 10th &
+                                    11th preparing for NIFT B.Design</li>
+                                <li><strong>B.Design/B.FTech Course (Group B)</strong> - For students in class 12th OR
+                                    12th passed</li>
+                                <li><strong>Post Graduate Programs (Group E/F)</strong> - For post graduate students
+                                    interested in M.Design, MFM or M.F Tech courses</li>
                             </ul>
                         </div>
                     </div>
@@ -1234,7 +1331,8 @@
                     <div class="nid_tab_tab_pane" id="application">
                         <h3 class="nid_tab_tab_title">NIFT 2025 Application Form</h3>
                         <p class="nid_tab_tab_description">
-                            The application process for NIFT 2025 is completely online. Visit the official NIFT admissions
+                            The application process for NIFT 2025 is completely online. Visit the official NIFT
+                            admissions
                             website to apply.
                         </p>
                         <div class="nid_tab_info_card nid_tab_shimmer">
@@ -1245,12 +1343,12 @@
                                 selection.</p>
                         </div>
                         <div style="text-align: center; margin-top: 30px;">
-                            <a href="https://nift.ac.in/admission" target="_blank" class="nid_tab_register_btn">
+                            <a href="#form-box" class="nid_tab_register_btn">
                                 <i class="fas fa-user-plus"></i> Register Now
                             </a>
                         </div>
                     </div>
-                    
+
                     <!-- Cut Off Tab -->
                     <!-- <div class="nid_tab_tab_pane" id="cutoff">
                         <h3 class="nid_tab_tab_title">NID Cut off for Admissions 2024 – 2025</h3>
@@ -1304,7 +1402,6 @@
                             </table>
                         </div>
                     </div> -->
-
                     <!-- Result Tab -->
                     <div class="nid_tab_tab_pane" id="result">
                         <h3 class="nid_tab_tab_title">About NIFT Result</h3>
@@ -1325,19 +1422,22 @@
                             <div class="nid_tab_stats_card nid_tab_fade_in_up" style="animation-delay: 0.1s;">
                                 <div class="nid_tab_stats_header">2207</div>
                                 <div class="nid_tab_stats_content">
-                                    <div class="nid_tab_stats_label">BRDS Students Selected in NIFT 2024 Final Selections</div>
+                                    <div class="nid_tab_stats_label">BRDS Students Selected in NIFT 2024 Final
+                                        Selections</div>
                                 </div>
                             </div>
                             <div class="nid_tab_stats_card nid_tab_fade_in_up" style="animation-delay: 0.2s;">
                                 <div class="nid_tab_stats_header black">2060</div>
                                 <div class="nid_tab_stats_content">
-                                    <div class="nid_tab_stats_label">BRDS Students Selected in NIFT 2024 Final Selections (B.Design & B.F.Tech)</div>
+                                    <div class="nid_tab_stats_label">BRDS Students Selected in NIFT 2024 Final
+                                        Selections (B.Design & B.F.Tech)</div>
                                 </div>
                             </div>
                             <div class="nid_tab_stats_card nid_tab_fade_in_up" style="animation-delay: 0.3s;">
                                 <div class="nid_tab_stats_header">147</div>
                                 <div class="nid_tab_stats_content">
-                                    <div class="nid_tab_stats_label">BRDS Students Selected in NIFT 2024 Final Selections (M.Design / MFM / M.F.Tech)</div>
+                                    <div class="nid_tab_stats_label">BRDS Students Selected in NIFT 2024 Final
+                                        Selections (M.Design / MFM / M.F.Tech)</div>
                                 </div>
                             </div>
                         </div>
@@ -2067,6 +2167,10 @@
                                     data-location="BRDS Baner, Pune">( Get Direction )</a></li>
                             <li>Undri <a href="https://g.co/kgs/NjLLiMW" class="direction-link"
                                     data-location="BRDS Undri, Pune">( Get Direction )</a></li>
+                            <li>Kothrud <a href="https://share.google/OGKTbBypo2LDeqZKp" class="direction-link"
+                                    data-location="BRDS Kothrud, Pune">( Get Direction )</a></li>
+                            <li>Sinhgad <a href="https://share.google/42KETws24YngH20dB" class="direction-link"
+                                    data-location="BRDS Sinhgad, Pune">( Get Direction )</a></li>
                         </ul>
                     </div>
                     <div class="location-block" data-city="vadodara">
@@ -2366,6 +2470,13 @@
                                     data-location="BRDS Dubai">( Get Direction )</a></li>
                         </ul>
                     </div>
+<div class="location-block" data-city="patna">
+                        <h4 class="location-title">BIHAR : +919913757598</h4>
+                        <ul class="location-list">
+                            <li>Patna <a href="https://maps.app.goo.gl/y6JLWEEQDSucVrqJA" class="direction-link"
+                                    data-location="BRDS Patna, Bihar">( Get Direction )</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <!-- Map preview -->
@@ -2380,22 +2491,22 @@
             </div>
             <div class="footer-bottom">
                 <div class="footer-links">
-                    <a href="#">NID Coaching in Delhi</a>
-                    <a href="#">NID Coaching in Mumbai</a>
-                    <a href="#">NID Coaching in Pune</a>
-                    <a href="#">NID Coaching in Kolkata</a>
-                    <a href="#">NID Coaching in Ahmedabad</a>
-                    <a href="#">NID Coaching in Vadodara</a>
-                    <a href="#">NIFT</a>
-                    <a href="#">NIFT Coaching in Delhi</a>
-                    <a href="#">NIFT Coaching in Mumbai</a>
-                    <a href="#">NIFT Coaching in Pune</a>
-                    <a href="#">NIFT Coaching in Kolkata</a>
-                    <a href="#">NIFT Coaching in Ahmedabad</a>
-                    <a href="#">NIFT Coaching in Vadodara</a>
-                    <a href="#">CEED Coaching in Delhi</a>
-                    <a href="#">CEED Coaching in Mumbai</a>
-                    <a href="#">CEED Coaching in Pune</a>
+                    <a href="https://rathoredesign.com/nid-coaching-delhi/">NID Coaching in Delhi</a>
+                    <a href="https://rathoredesign.com/nid-coaching-mumbai/?nid">NID Coaching in Mumbai</a>
+                    <a href="https://rathoredesign.com/nid-coaching-pune/?nid">NID Coaching in Pune</a>
+                    <a href="https://rathoredesign.com/nid-coaching-kolkata/">NID Coaching in Kolkata</a>
+                    <a href="https://rathoredesign.com/nid-coaching-ahmedabad/?nid">NID Coaching in Ahmedabad</a>
+                    <a href="https://rathoredesign.com/nid-coaching-vadodara/">NID Coaching in Vadodara</a>
+
+                    <a href="https://rathoredesign.com/nift-coaching-delhi/">NIFT Coaching in Delhi</a>
+                    <a href="https://rathoredesign.com/nift-coaching-mumbai/">NIFT Coaching in Mumbai</a>
+                    <a href="https://rathoredesign.com/nift-coaching-pune/">NIFT Coaching in Pune</a>
+                    <a href="https://rathoredesign.com/nift-coaching-kolkata/">NIFT Coaching in Kolkata</a>
+                    <a href="https://rathoredesign.com/nift-coaching-ahmedabad/">NIFT Coaching in Ahmedabad</a>
+                    <a href="https://rathoredesign.com/nift-coaching-vadodara/">NIFT Coaching in Vadodara</a>
+                    <a href="https://rathoredesign.com/ceed-coaching-classes-delhi/">CEED Coaching in Delhi</a>
+                    <a href="https://rathoredesign.com/ceed-coaching-mumbai/">CEED Coaching in Mumbai</a>
+                    <a href="https://rathoredesign.com/ceed-coaching-pune/">CEED Coaching in Pune</a>
                 </div>
                 <!-- Back to top button -->
                 <div class="back-to-top" id="backToTop">
@@ -2528,16 +2639,14 @@
         <div class="copyright_sec pt-3 pb-3">
             <div class="container">
                 <div class="row text-center">
-                    <h6 class="mb-0">Copyright © BRDS 2025. All Rights <a
-                            href="https://www.thedesignvillage.org/course/communication-design-courses-and-interaction-design-courses/"
-                            style="cursor: default; color: inherit; text-decoration: none;">Reserved | <a
-                                href="https://blog.nidcoaching.org/">Blog</a> | <a
-                                href="https://www.facebook.com/rathoredesign"><i
-                                    class="fa-brands fa-square-facebook"></i></a> | <a
-                                href="https://www.instagram.com/brds_india/"><i class="fa-brands fa-instagram"></i></a>
-                            | <a href="https://twitter.com/bhanwarbrds"><i class="fa-brands fa-x-twitter"></i></a> | <a
-                                href="https://www.youtube.com/c/rathoredesignstudio"><i
-                                    class="fa-brands fa-youtube"></i></a></h6>
+                    <h6 class="mb-0">Copyright © BRDS 2025. All Rights Reserved | <a
+                            href="https://blog.niftcoaching.org/">Blog</a> | <a
+                            href="https://www.facebook.com/rathoredesign"><i
+                                class="fa-brands fa-square-facebook"></i></a> | <a
+                            href="https://www.instagram.com/brds_india/"><i class="fa-brands fa-instagram"></i></a>
+                        | <a href="https://twitter.com/bhanwarbrds"><i class="fa-brands fa-x-twitter"></i></a> | <a
+                            href="https://www.youtube.com/c/rathoredesignstudio"><i
+                                class="fa-brands fa-youtube"></i></a></h6>
                 </div>
             </div>
         </div>
@@ -2620,7 +2729,7 @@
                     // Send the form data in the background after setting up the redirect
                     // This will continue even after the page starts to navigate away
                     setTimeout(function () {
-                        fetch('brds_crm_api.php', {
+                        fetch('brds_crm_api_nift.php', {
                             method: 'POST',
                             body: formData,
                             // No need to wait for response

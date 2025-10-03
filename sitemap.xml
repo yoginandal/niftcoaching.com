@@ -8,8 +8,19 @@
 
 
 <url>
-  <loc>https://nidcoaching.org/</loc>
-  <lastmod>2023-12-01T12:54:40+00:00</lastmod>
+  <loc>https://niftcoaching.com/</loc>
+  <lastmod>2025-08-21T10:02:19+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://niftcoaching.com/privacy-policy.php</loc>
+  <lastmod>2025-08-21T10:02:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://niftcoaching.com/brds-terms-of-service.php</loc>
+  <lastmod>2025-08-21T10:02:19+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 

@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Open Sans", sans-serif;
 
 }
 
@@ -84,7 +84,7 @@ footer a {
 }
 
 .banner .banner-left h2 {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: bold;
     font-size: 26px;
     margin-bottom: 10px;

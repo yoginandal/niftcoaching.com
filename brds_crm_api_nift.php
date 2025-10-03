@@ -1,4 +1,6 @@
 <?php
+// print_r($_POST);die;
+
 header('Content-Type: application/json');
 try {
     // Validate required fields
@@ -18,8 +20,8 @@ try {
     $referrer = isset($_POST['referrer_name']) ? $_POST['referrer_name'] : '';
     $keyword = isset($_POST['keyword']) ? $_POST['keyword'] : '';
     $source = isset($_POST['sourcemedium']) ? $_POST['sourcemedium'] : '';
-    $orderid = isset($_POST['orderid']) ? $_POST['orderid'] : '1021';
-    $sitename = isset($_POST['sitename']) ? $_POST['sitename'] : 'NIDCOACHING';
+    $orderid = isset($_POST['orderid']) ? $_POST['orderid'] : '1053';
+    $sitename = isset($_POST['sitename']) ? $_POST['sitename'] : 'UCEEDLP';
     $campaign_url = isset($_POST['campaign_url']) ? $_POST['campaign_url'] : '';
     $campaign_name = isset($_POST['campaign_name']) ? $_POST['campaign_name'] : '';
     $network = isset($_POST['network']) ? $_POST['network'] : '';
@@ -65,10 +67,10 @@ try {
         '31' => "West Bengal"
     ];
 
-    $statename = isset($stateNames[$state]) ? $stateNames[$state] : $state;
+    // $statename = isset($stateNames[$state]) ? $stateNames[$state] : $state;
     // Prepare email content
-    $to = "callcentre.brds@gmail.com";
-    $subject = "NID Coaching Lead";
+    $to = "callcentre.brds@gmail.com";//callcentre.brds@gmail.com
+    $subject = "NIFT Coaching Lead";
     $message = '<strong>Name: </strong>' . $name .
         '<br><strong>Phone: </strong>' . $phone .
         '<br><strong>Qualification: </strong>' . $qualification .
@@ -85,15 +87,16 @@ try {
 
     // Log email status but don't fail if email fails
     if (!$mailSent) {
-        error_log("Failed to send email notification for lead: $name, $phone, $email");
+        error_log("Failed to send email notification for lead: $name, $phone");
     }
     // Prepare CRM data
     $uniFields = array(
         'name' => urlencode($name),
         'phone' => urlencode($phone),
-        // 'email' => urlencode($email),
+        'email' => "",
         'city' => urlencode($city),
-        'query' => urlencode($qualification . ' | Course: ' . $course),
+        'query' => urlencode($qualification) , 
+        'course' =>urlencode($course),
         'http_referer' => urlencode($referrer),
         'search_keyword' => urlencode($keyword),
         'campaign_url' => urlencode($campaign_url),
@@ -104,6 +107,8 @@ try {
         'ORDERID' => urlencode($orderid),
         'SITENAME' => urlencode($sitename)
     );
+
+    // print_r($uniFields);die();
     // Build CRM request string
     $uni_fields_string = '';
     foreach ($uniFields as $key => $value) {
@@ -114,19 +119,19 @@ try {
     $uniUrl = 'https://crm.stealthdigital.in/lp/index';
     $post = curl_init();
     curl_setopt($post, CURLOPT_URL, $uniUrl);
-    curl_setopt($post, CURLOPT_POST, count($uniFields));
-    curl_setopt($post, CURLOPT_POSTFIELDS, $uni_fields_string);
-    curl_setopt($post, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($post, CURLOPT_POST, true);
+    curl_setopt($post, CURLOPT_POSTFIELDS, http_build_query($uniFields)); // handles encoding
+    curl_setopt($post, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($post, CURLOPT_FOLLOWLOCATION, true);
-    curl_setopt($post, CURLOPT_CONNECTTIMEOUT, 5); // 5 seconds connection timeout
-    curl_setopt($post, CURLOPT_TIMEOUT, 10); // 10 seconds execution timeout
+    curl_setopt($post, CURLOPT_CONNECTTIMEOUT, 5);
+    curl_setopt($post, CURLOPT_TIMEOUT, 10);
 
     // Execute CRM request but don't wait for response
     $content = curl_exec($post);
 
     // Log CRM errors but don't fail the submission
     if (curl_errno($post)) {
-        error_log("CRM API Error: " . curl_error($post) . " for lead: $name, $phone, $email");
+        error_log("CRM API Error: " . curl_error($post) . " for lead: $name, $phone");
     }
 
     curl_close($post);
@@ -134,7 +139,7 @@ try {
     $sheetsData = json_encode([
         'Name' => $name,
         'phone' => $phone,
-        // 'email' => $email,
+        //'email' => "",
         'qualification' => $qualification,
         'course' => $course,
         'city' => $city,
@@ -148,7 +153,7 @@ try {
         'orderid' => $orderid,
         'sitename' => $sitename
     ]);
-    $sheetsResponse = file_get_contents('https://script.google.com/macros/s/AKfycbxq_7MdbCtaVszdU7xjuHsqzvUqtMYi8oc4J2Oy-v5aIeeT2oyZSDKQ5p2n1A8fJtE/exec', false, stream_context_create([
+    $sheetsResponse = file_get_contents('https://script.google.com/macros/s/AKfycbwNYViWXFboQ4-29Vdin3OO-6j08l_uUAxgBmQ2Uecxp45pX4l-KIHXtXUFVV5c3W0/exec', false, stream_context_create([
         'http' => [
             'method' => 'POST',
             'header' => [
@@ -171,7 +176,7 @@ try {
             error_log("Failed to create log directory: $logDir");
         } else {
             // Append lead to log file
-            $logData = date('Y-m-d H:i:s') . " | $name | $phone | $email | $qualification | $course | $city | $source\n";
+            $logData = date('Y-m-d H:i:s') . " | $name | $phone | $qualification | $course | $city | $source\n";
             file_put_contents($logFile, $logData, FILE_APPEND);
         }
     } catch (Exception $e) {
