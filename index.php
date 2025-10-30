@@ -937,26 +937,26 @@
                 <!-- Stats Card -->
                 <div class="card_result stats-card_result">
                     <h2 class="stats-title_result">NIFT</h2>
-                    <h3 class="stats-number_result">2207</h3>
-                    <h4 class="stats-text_result">Students Selected in NIFT 2024</h4>
-                    <div class="total-stats_result">12,346 Total Selected in NIFT</div>
+                    <h3 class="stats-number_result">2134</h3>
+                    <h4 class="stats-text_result">Students Selected in NIFT 2025</h4>
+                    <div class="total-stats_result">14,480 Total Selected in NIFT</div>
                 </div>
                 <!-- Student Card 1 -->
                 <div class="card_result student-card_result">
                     <div class="card-header_result"></div>
                     <div class="profile-wrapper_result">
                         <div class="profile-ring_result"></div>
-                        <img src="./images/isha-kiran-nift.jpg" alt="Isha Kiran Biruly" class="profile-pic_result">
+                        <img src="https://rathoredesign.com/wp-content/uploads/2025/10/bhumika-singhal.jpg" alt="Bhumika Singhal" class="profile-pic_result">
                     </div>
                     <div class="student-info_result">
-                        <h3 class="student-name_result">Isha Kiran Biruly</h3>
-                        <div class="student-city_result">Chaibasa</div>
-                        <div class="student-program_result">B.FTECH</div>
+                        <h3 class="student-name_result">Bhumika</h3>
+                        <div class="student-city_result">Sonipat</div>
+                        <div class="student-program_result">NIFT, Delhi</div>
                         <div class="rank-badge_result">
                             <span class="rank-label_result">All India Rank</span>
                             <span class="rank-number_result">01</span>
                         </div>
-                        <div class="nid-year_result">NIFT 2024</div>
+                        <div class="nid-year_result">NIFT B.Design 2025</div>
                     </div>
                 </div>
                 <!-- Student Card 2 -->
@@ -964,17 +964,17 @@
                     <div class="card-header_result"></div>
                     <div class="profile-wrapper_result">
                         <div class="profile-ring_result"></div>
-                        <img src="./images/sneha-tawari.jpeg" alt="Sneha Tawari" class="profile-pic_result">
+                        <img src="https://rathoredesign.com/wp-content/uploads/2025/10/anudeepti-bajpai.jpg" alt="Anudeepti Bajpai" class="profile-pic_result">
                     </div>
                     <div class="student-info_result">
-                        <h3 class="student-name_result">Sneha Tawari</h3>
-                        <div class="student-city_result">Jaisalmer</div>
-                        <div class="student-program_result">NIFT Delhi</div>
+                        <h3 class="student-name_result">Anudeepti Bajpai</h3>
+                        <div class="student-city_result">New Delhi</div>
+                        <div class="student-program_result">NIFT, Delhi</div>
                         <div class="rank-badge_result">
                             <span class="rank-label_result">All India Rank</span>
                             <span class="rank-number_result">02</span>
                         </div>
-                        <div class="nid-year_result">NIFT B.Design 2024</div>
+                        <div class="nid-year_result">NIFT B.Design 2025</div>
                     </div>
                 </div>
                 <!-- Student Card 3 -->
@@ -982,17 +982,17 @@
                     <div class="card-header_result"></div>
                     <div class="profile-wrapper_result">
                         <div class="profile-ring_result"></div>
-                        <img src="./images/shalome-chhangte.png" alt="Shalom Malsawmtluangi" class="profile-pic_result">
+                        <img src="https://rathoredesign.com/wp-content/uploads/2025/10/bhakti-thakkar.jpg" alt="Bhakti Thakkar" class="profile-pic_result">
                     </div>
                     <div class="student-info_result">
-                        <h3 class="student-name_result">Shalom Malsawmtluangi</h3>
-                        <div class="student-city_result">Mizoram</div>
-                        <div class="student-program_result">NIFT Delhi</div>
+                        <h3 class="student-name_result">Bhakti Thakkar</h3>
+                        <div class="student-city_result">Vadodara</div>
+                        <div class="student-program_result">NIFT, Mumbai</div>
                         <div class="rank-badge_result">
                             <span class="rank-label_result">All India Rank</span>
                             <span class="rank-number_result">03</span>
                         </div>
-                        <div class="nid-year_result">NIFT M.Design 2024</div>
+                        <div class="nid-year_result">NIFT M.Design 2025</div>
                     </div>
                 </div>
             </div>
@@ -1001,59 +1001,59 @@
                 <!-- Stats Card -->
                 <div class="card_result stats-card_result">
                     <h2 class="stats-title_result">NIFT</h2>
-                    <h3 class="stats-number_result">2207</h3>
-                    <h4 class="stats-text_result">Students Selected in NIFT 2024</h4>
-                    <div class="total-stats_result">12,346 Total Selected in NIFT</div>
+                    <h3 class="stats-number_result">2134</h3>
+                    <h4 class="stats-text_result">Students Selected in NIFT 2025</h4>
+                    <div class="total-stats_result">14,480 Total Selected in NIFT</div>
                 </div>
                 <!-- Student Card 1 -->
                 <div class="card_result student-card_result">
                     <div class="card-header_result"></div>
                     <div class="profile-wrapper_result">
-                        <img src="./images/isha-kiran-nift.jpg" alt="Isha Kiran Biruly" class="profile-pic_result">
+                        <img src="https://rathoredesign.com/wp-content/uploads/2025/10/bhumika-singhal.jpg" alt="Bhumika Singhal" class="profile-pic_result">
                     </div>
                     <div class="student-info_result">
-                        <h3 class="student-name_result">Isha Kiran Biruly</h3>
-                        <div class="student-city_result">Chaibasa</div>
-                        <div class="student-program_result">B.FTECH</div>
+                        <h3 class="student-name_result">Bhumika Singhal</h3>
+                        <div class="student-city_result">Sonipat</div>
+                        <div class="student-program_result">NIFT, Delhi</div>
                         <div class="rank-badge_result">
                             <span class="rank-label_result">All India Rank</span>
                             <span class="rank-number_result">01</span>
                         </div>
-                        <div class="nid-year_result">NIFT 2024</div>
+                        <div class="nid-year_result">NIFT B.Design 2025</div>
                     </div>
                 </div>
                 <!-- Student Card 2 -->
                 <div class="card_result student-card_result">
                     <div class="card-header_result"></div>
                     <div class="profile-wrapper_result">
-                        <img src="./images/sneha-tawari.jpeg" alt="Sneha Tawari" class="profile-pic_result">
+                        <img src="https://rathoredesign.com/wp-content/uploads/2025/10/anudeepti-bajpai.jpg" alt="Anudeepti Bajpai" class="profile-pic_result">
                     </div>
                     <div class="student-info_result">
-                        <h3 class="student-name_result">Sneha Tawari</h3>
-                        <div class="student-city_result">Jaisalmer</div>
-                        <div class="student-program_result">NIFT Delhi</div>
+                        <h3 class="student-name_result">Anudeepti Bajpai</h3>
+                        <div class="student-city_result">New Delhi</div>
+                        <div class="student-program_result">NIFT, Delhi</div>
                         <div class="rank-badge_result">
                             <span class="rank-label_result">All India Rank</span>
                             <span class="rank-number_result">02</span>
                         </div>
-                        <div class="nid-year_result">NIFT B.Design 2024</div>
+                        <div class="nid-year_result">NIFT B.Design 2025</div>
                     </div>
                 </div>
                 <!-- Student Card 3 -->
                 <div class="card_result student-card_result">
                     <div class="card-header_result"></div>
                     <div class="profile-wrapper_result">
-                        <img src="./images/shalome-chhangte.png" alt="Shalom Malsawmtluangi" class="profile-pic_result">
+                        <img src="https://rathoredesign.com/wp-content/uploads/2025/10/bhakti-thakkar.jpg" alt="Bhakti Thakkar" class="profile-pic_result">
                     </div>
                     <div class="student-info_result">
-                        <h3 class="student-name_result">Shalom Malsawmtluangi</h3>
-                        <div class="student-city_result">Mizoram</div>
-                        <div class="student-program_result">NIFT Delhi</div>
+                        <h3 class="student-name_result">Bhakti Thakkar</h3>
+                        <div class="student-city_result">Vadodara</div>
+                        <div class="student-program_result">NIFT, Mumbai</div>
                         <div class="rank-badge_result">
                             <span class="rank-label_result">All India Rank</span>
                             <span class="rank-number_result">03</span>
                         </div>
-                        <div class="nid-year_result">NIFT M.Design 2024</div>
+                        <div class="nid-year_result">NIFT M.Design 2025</div>
                     </div>
                 </div>
             </div>
